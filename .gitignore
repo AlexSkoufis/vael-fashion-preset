@@ -7,3 +7,35 @@ next-env.d.ts
 
 
 .vercel
+
+# --- safety rules (added before GitHub upload) ---
+node_modules/
+.next/
+.next-dev/
+dist/
+build/
+out/
+.vercel/
+.shopify/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env*.example
+*.pem
+*.key
+*credential*
+*credntial*
+.mock-auth.json
+.mock-db.json
+local_keys.py
+*.zip
+*.rar
+*.log
+error_log
+logs/
+tsconfig.tsbuildinfo
+*.code-workspace
+__MACOSX/
